@@ -10,6 +10,7 @@ Sample Node.js app to demonstrate application performance monitoring and storage
 
 ### Project Structure
 
+```
 node-perf-demo/
 ├── .env
 ├── .gitignore
@@ -23,6 +24,7 @@ node-perf-demo/
 │       ├── styles.css
 │       └── app.js
 └── README.md
+```
 
 ## Prerequisites
 - Node.js (v14+)
