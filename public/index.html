@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node.js Performance Monitor (InfluxDB + PM2)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Node.js Performance Monitor using PM2 & InfluxDB</h1>
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <h2>CPU Usage</h2>
+        <div id="cpuValue" class="metric-value">--%</div>
+      </div>
+      <div class="metric-card">
+        <h2>Memory Usage</h2>
+        <div id="memoryValue" class="metric-value">--MB</div>
+      </div>
+      <div class="metric-card">
+        <h2>Restart Count</h2>
+        <div id="restartsValue" class="metric-value">--</div>
+      </div>
+      <div class="metric-card">
+        <h2>Uptime</h2>
+        <div id="uptimeValue" class="metric-value">--s</div>
+      </div>
+      <div class="metric-card">
+        <h2>Requests/5s</h2>
+        <div id="requestsPerFiveSecondsValue" class="metric-value">--</div>
+      </div>
+      <div class="metric-card">
+        <h2>Active Requests</h2>
+        <div id="activeRequestsValue" class="metric-value">--</div>
+      </div>
+    </div>
+    <div id="lastUpdated"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

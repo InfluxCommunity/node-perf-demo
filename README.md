@@ -33,8 +33,8 @@ node-perf-demo/
 ## Setup & Run
 
 - Download/Clone this project from GitHub
-- Run the following commands to install the dependencies (pm2, influxDB v3 client library, dotenv)
+- Run the following commands to install the dependencies (express, pm2, influxDB v3 client library, dotenv)
 - Open ```.env``` file and update and save the enviorment variables for InfluxDB that can be found in the [InfluxData Cloud portal.](https://cloud2.influxdata.com/signup)
 - ``` cd node-perf-demo```
 - ``` pm2 start ecosystem.config.js ```
-- Open ```localhost:5000``` in your browser
+- Open ```localhost:3000``` in your browser

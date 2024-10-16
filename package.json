@@ -1,0 +1,34 @@
+{
+  "name": "influxdata.nodedemo",
+  "version": "1.0.0",
+  "description": "Sample app using PM2, InfluxDB to show app performance monitoring and storage use case.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InfluxCommunity/node-perf-demo.git"
+  },
+  "keywords": [
+    "Node.js",
+    "PM2",
+    "InfluxDB",
+    "Performance",
+    "Monitoring"
+  ],
+  "author": "Suyash Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InfluxCommunity/node-perf-demo/issues"
+  },
+  "homepage": "https://github.com/InfluxCommunity/node-perf-demo#readme",
+  "dependencies": {
+    "@influxdata/influxdb3-client": "^0.11.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pm2": "^5.4.2"
+  }
+}
