@@ -16,9 +16,8 @@ node-perf-demo/
 ├── .gitignore
 ├── package.json
 ├── ecosystem.config.js
-├── server/
-│   ├── server.js
-│   ├── influx.js
+├── server.js
+│   influxdb.js
 │   └── public/
 │       ├── index.html
 │       ├── styles.css
